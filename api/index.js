@@ -12,7 +12,7 @@ app.listen(HTTP_PORT, () => {
 });
 
 const db = new sqlite3.Database('./db/monthly-expense-tracker.db', (err) => {
-        if (err) {        console.error("Erro opening database " + err.message);
+        if (err) { console.error("Erro opening database " + err.message);
     }});
 
 app.get("/users/:id", (req, res, next) => {
