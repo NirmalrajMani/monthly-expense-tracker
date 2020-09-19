@@ -1,1 +1,1 @@
-# Monthly Expense Tracker Ui
+# Monthly Expense Tracker Application
