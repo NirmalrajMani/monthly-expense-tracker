@@ -1,1 +1,1 @@
-# Monthly Expense Tracker Application
+# Monthly expense tracker application
