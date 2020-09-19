@@ -1,0 +1,6 @@
+<h1>User's Full Name :</h1>
+<ul *ngFor = "let user of userList">
+  <li> {{user.first_name}}, {{user.last_name}} ({{user.user_id}})</li>
+</ul>
+
+<router-outlet></router-outlet>
